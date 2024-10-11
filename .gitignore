@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### AL ###
 #Template for AL projects for Dynamics 365 Business Central
 #launch.json folder
@@ -20,3 +21,8 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+=======
+vendor
+.env
+.idea
+>>>>>>> 9e56e62 (Create folders structure)
