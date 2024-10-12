@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News List</title>
+    <link rel="stylesheet" href="/assets/css/custom.css">
+</head>
+<body>
+  <main>
+    <h1>News List</h1>
+        {% for article in news %}
+            <h2><strong>{{ article.title }}</strong></h2>
+            <img src="{{ article.image }}" alt="Image" style="float: left; margin: 5px; width: 250px;">
+            <p>{{ article.content }}</p>
+        {% else %}
+            <li>No news available.</li>
+        {% endfor %}
+  </main>
+</body>
+</html>

@@ -1,3 +1,3 @@
 <?php
 
-define ('DB_NAME', 'db_name');
+define ('VIEW_PATH', dirname(__FILE__, 2).'/Views/');

@@ -1,0 +1,13 @@
+* {
+    background-color: aqua;
+}
+main {
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+}
